@@ -1,0 +1,48 @@
+label {
+    display: block;
+}
+ 
+h1 {
+    text-align: center;
+    margin: 0 0 10px;
+}
+ 
+body {
+    width: 600px;
+    background-color: rgb(227, 243, 248);
+    margin: auto;
+    font-family: sans-serif;
+}
+ 
+#main {
+    background-color: white;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 15px;
+    height: 500px;
+}
+ 
+legend {
+    text-align: center;
+    color: green;
+    font-weight: bolder;
+}
+ 
+.inline-select {
+    display: inline-block;
+}
+ 
+input[type="text"] {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
+ 
+fieldset {
+    border-color: rgb(231, 231, 231);
+    border-radius: 15px;
+}
+
+button {
+    align-items: center;
+}

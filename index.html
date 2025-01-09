@@ -1,0 +1,79 @@
+<!--Daniel G, Daniel M-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" type="image/jpg" href="images/ice-cream-cute-logo-design-free-vector.jpg">
+    <title>Ice Cream Order Form</title>
+    <link rel="stylesheet" href="styles/ice-style.css">
+</head>
+<body>
+    <div id="main">
+        <form action="">
+            <h1>Ice Cream Order Form</h1>
+
+            <fieldset>
+                <legend>Personal Information</legend>
+                <div>
+                    <lable>Name
+                        <input type="text" name="fname" id="fname">
+                    </label>
+                </div>
+                <div>
+                    <lable>Email
+                        <input type="text" name="email" id="email">
+                    </label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Order Detail</legend>
+                <div>
+                    <legend>Choose your flavor:</legend>
+                    <select name="flavor" id="flavor">
+                        <option value="vanilla">Vanilla</option>
+                        <option value="choclate">Choclate</option>
+                        <option value="strawberry">Strawberry</option>
+                     </select>
+                </div>
+
+                <div>
+                    <legend>Choose your cone</legend>
+                    <label class="inline-select">
+                        <input type="radio" name="mehtod" value="Waffle Cone"> Waffle Cone
+                    </label>
+                    <label class="inline-select">
+                        <input type="radio" name="method" value="Sugar Cone"> Sugar Cone
+                    </label>
+                    <label class="inline-select">
+                        <input type="radio" name="method" value="Cup"> Cup
+                    </label>
+                </div>
+                <div>
+                    <legend>Topping</legend>
+                    <label class="inline-select">
+                        <input type="checkbox" name="method" value="sprinkles"> Sprinkles
+                    </label>
+                    <label class="inline-select">
+                        <input type="checkbox" name="method" value="nuts"> Nuts
+                    </label>
+                    <label class="inline-select">
+                        <input type="checkbox" name="method" value="cherry"> Cherry
+                    </label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Comments</legend>
+                <textarea name="userInput" id="userInput"></textarea>
+            </fieldset>
+
+            <button type="submit">Submit Order</button>
+            
+        </form>
+    </div>
+</body>
+</html>
