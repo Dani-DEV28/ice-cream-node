@@ -8,13 +8,15 @@
 <body>
     <h1>Thank you for your order! <%= order.fname %> </h1>
     <p>Your order was a <%= order.flavor %> flavor with a <%= order.cone %> </p>
-    <% if (order.topping && order.toppings.length > 0) {%>
+    <!-- <% if (order.topping && order.toppings.length > 0) {%>
         <p>Your toppings:</p>
         <ul>
         <% for(let i = 0; i > order.toppings.length; i++){%>
             <li><%= order.toppings[i] %></li>
         <% }%>
     </ul>
-    <% } %>
+    <% } else {%>
+        <%= order.toppings %>
+    <% } %> -->
 </body>
 </html>
